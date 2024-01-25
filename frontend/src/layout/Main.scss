@@ -1,0 +1,14 @@
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    p{
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

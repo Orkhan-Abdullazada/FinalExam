@@ -1,0 +1,50 @@
+.imege {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    position: relative;
+    background-image: url('https://preview.colorlib.com/theme/wines/images/hero_2.jpg');
+    background-attachment: fixed !important;
+
+
+
+    .write {
+        position: absolute;
+        z-index: 333;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        display: flex;align-items: center;justify-content: center;
+        background-color: rgba(0, 0, 0, 0.509);
+        width: 100%;
+        height: 100%;
+        left: 50%;
+      h3{
+        color: white;
+        font-size: 60px;
+      }
+    }
+
+}
+
+.wine{
+  padding-top: 10%;
+  display: flex;align-items: center;justify-content: center;
+  flex-direction: column;
+ height: 500px;
+  gap: 20px;
+  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid purple;
+  }
+  p{
+    text-align: center;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+  }
+}
